@@ -7,60 +7,72 @@
   }
 
   header {
-    height: 250px;
+    height: 500px;
     background-color: #129799;
-    display: flex;
-    /* justify-content: space-around; */
     font-size: 25px;
-    font-weight: bold;
     color: white;  
     }
-    
-    ul {
-    display: flex;
-    justify-content: space-around;
-    }
 
-
-#inicio {
+  #inicio {
   height: 150px;
-  width: 900px;
-  padding-left: 0px;
+  width: 600px;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  margin-left: 350px;
-  margin-top: 20px;
+  margin-left: 700px;
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
   /* border: solid; */
-}
-
-
-
-  .contato {
-    margin-right: 350px;
   }
+
+ #destaque {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  /* border: solid; */
+ }
 
   .titulo {
-    margin-top: 150px;
-    display: flex;
-    /* flex-direction: column; */
-    border: solid;
-    justify-content: right;
+  font-size: 35px;
+  margin-left: 200px;
   }
 
+  .imagem {
+    width: 600px;
+  }
 
-
-
-
-
-
-
-
+  #opcoes {
+  width: 800px;
+  margin-top: 80px;
+  margin-left: 600px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  font-family: 'Roboto', sans-serif;
+  /* border: solid; */
+  }
 
   main {
     height: 1000px;
-    background-color: coral;
+    font-size: 25px;
+    color: white;
+    background-color: #FFA185;
   }
+
+  .Aquarela {
+    /* height: 300px; */
+    width: 900px;
+    border: solid;
+  }
+
+  .Descricao {
+    margin-top: 20px;
+    border: solid;
+  }
+
+
 
   footer {
     height: 250px;
