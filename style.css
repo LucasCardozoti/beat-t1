@@ -5,3 +5,64 @@
     text-decoration: none;
     list-style: none;
   }
+
+  header {
+    height: 250px;
+    background-color: #129799;
+    display: flex;
+    /* justify-content: space-around; */
+    font-size: 25px;
+    font-weight: bold;
+    color: white;  
+    }
+    
+    ul {
+    display: flex;
+    justify-content: space-around;
+    }
+
+
+#inicio {
+  height: 150px;
+  width: 900px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 350px;
+  margin-top: 20px;
+  /* border: solid; */
+}
+
+
+
+  .contato {
+    margin-right: 350px;
+  }
+
+  .titulo {
+    margin-top: 150px;
+    display: flex;
+    /* flex-direction: column; */
+    border: solid;
+    justify-content: right;
+  }
+
+
+
+
+
+
+
+
+
+
+  main {
+    height: 1000px;
+    background-color: coral;
+  }
+
+  footer {
+    height: 250px;
+    background-color: #129799;
+  }
