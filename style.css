@@ -63,7 +63,7 @@
   }
 
   main {
-    /* height: 1000px; */
+    height: 940px;
     width: 1000px;
     margin-left: 25%;
     font-size: 25px;
@@ -77,21 +77,24 @@
     margin-left: 30px;
     display: flex;
     align-items: flex-end;
+    font-family: 'Roboto', sans-serif;
     /* border: solid; */
   }
 
   .Descricao {
     margin-top: 30px;
     margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
     color: black;
     /* border: solid; */
   }
 
   #ImagensMusica {
   height: 580px;
-  width: 850px;
-  margin-top: 100px;
-  margin-left: 75px;
+  width: 950px;
+  margin-top: 90px;
+  margin-left: 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -101,15 +104,42 @@
   /* border: solid; */
   }
 
-  
-
-
-
-
-
-
+  .VejaMais {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    /* border: solid; */
+  }  
 
   footer {
-    height: 250px;
+    height: 150px;
+    width: 1000px;
+    margin-left: 25%;
     background-color: #129799;
   }
+
+  #RedesSociaisEFinal {
+    height: 150px;
+    width: 250px;
+    margin-left: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid;
+  }
+
+  #Final {
+    height: 150px;
+    width: 380px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+     /* color: white; */
+    border: solid;
+  } 
+
+  
