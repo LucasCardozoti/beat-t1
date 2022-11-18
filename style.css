@@ -7,7 +7,7 @@
   }
 
   header {
-    height: 500px;
+    height: 480px;
     width: 1000px;
     background-color: #129799;
     margin-left: 25%;
@@ -15,40 +15,38 @@
     color: white;  
     }
 
-  #inicio {
-  height: 150px;
+  #Inicio {
+  height: 120px;
   width: 600px;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   margin-left: 200px;
-  padding-top: 20px;
+  padding-top: 25px;
   font-family: 'Roboto', sans-serif;
-  /* border: solid; */
   }
 
- #destaque {
+ #Destaque {
   height: 200px;
   width: 1100px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
-  /* border: solid; */
  }
 
-  .titulo {
+  .Titulo {
   font-size: 35px;
-  /* margin-left: 200px; */
+  
   }
 
-  .imagem {
+  .Imagem {
     width: 600px;
   }
 
-  #opcoes {
+  #Opcoes {
   width: 800px;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-left: 80px;
   display: flex;
   align-items: flex-end;
@@ -117,29 +115,32 @@
   footer {
     height: 150px;
     width: 1000px;
+    display: flex;
     margin-left: 25%;
     background-color: #129799;
   }
 
-  #RedesSociaisEFinal {
+  #RedesSociais {
     height: 150px;
     width: 250px;
     margin-left: 55px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: solid;
+    /* border: solid; */
   }
 
   #Final {
     height: 150px;
-    width: 380px;
+    width: 400px;
+    margin-left: 250px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
-     /* color: white; */
-    border: solid;
+     color: white;
+    /* border: solid; */
   } 
 
   
